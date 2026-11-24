@@ -123,6 +123,31 @@ Rams especifica a experiência, Berners implementa a interface, Turing define se
 
 Briefing → direção de arte → produção → revisão visual → aprovação → entrega para publicação. Rams pode produzir ativos com ferramentas disponíveis, sem publicar automaticamente. Consulte [a skill criativa](skills/rams-creative.md).
 
+### Onde Rams salva os criativos
+
+Por padrão, no **projeto consumidor**, em `creatives/instagram/AAAA/MM/campaign-slug/` (o canal varia conforme o briefing). O agente cria pastas sob demanda:
+
+```text
+campaign-slug/
+├── briefing.md
+├── drafts/       # Artes geradas, versionadas
+├── sources/      # Fontes editáveis, quando disponíveis
+├── approved/     # Cópias aprovadas explicitamente
+├── caption.md
+└── manifest.json
+```
+
+Para personalizar, copie [templates/venesis.config.json](templates/venesis.config.json) para a raiz do projeto consumidor como `venesis.config.json`. Sem configuração, os padrões acima se aplicam. A configuração é interpretada pelo Rams durante a execução; o instalador não cria pastas de artes nem fornece um motor de renderização. A produção depende das ferramentas e permissões do host.
+
+**Teste:** solicite ao Rams um post para Instagram, com arte real salva em drafts/, fonte editável quando disponível, legenda e manifest. Peça os caminhos dos arquivos e revise antes de aprovar.
+
+Se já instalou o Rams, atualize o clone e regenere apenas esse agente (revise o arquivo local antes de usar --force):
+
+```bash
+git pull
+python scripts/install.py /caminho/do/projeto --target all --agents rams --force
+```
+
 ## Status e roadmap
 
 Versão de desenvolvimento **0.1.0**. As configurações e o instalador existem; a compatibilidade em execução e os resultados dos agentes ainda precisam ser validados.

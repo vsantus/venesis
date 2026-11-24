@@ -31,3 +31,6 @@ Figma/Canva: começar por leitura de componentes e estilos existentes. Antes de 
 
 ## Entrega
 Objetivo, conceito, decisões visuais, tokens/componentes, estados ou formatos, arquivos reais, critérios de acessibilidade, revisão, hipóteses e limitações. Em campanhas, incluir manifest de produção e aprovação.
+
+## Persistência de criativos
+Ao produzir artes, siga a seção Armazenamento local obrigatório da skill criativa incorporada. Salve arquivos reais no projeto consumidor, por padrão em creatives/<canal>/<AAAA>/<MM>/<campanha>/drafts/. Leia venesis.config.json da raiz do consumidor quando disponível. Entregue caminhos verificáveis, legenda, manifest e fontes editáveis quando disponíveis. Nunca aprove ou publique automaticamente.

@@ -6,3 +6,4 @@
 - Especificações ampliadas: competências, método, limites, colaboração e entregas.
 - Workflow criativo e manifest de aprovação para Rams.
 - README de apresentação, arquitetura, instalação, exemplos e roadmap.
+- Armazenamento local de criativos por campanha, configuração de saída, versionamento e manifest verificável.

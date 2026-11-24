@@ -1,0 +1,11 @@
+{
+  "agents": {
+    "rams": {
+      "outputDir": "./creatives",
+      "organizeBy": "campaign",
+      "requireApproval": true,
+      "preserveSourceFiles": true,
+      "generateManifest": true
+    }
+  }
+}
