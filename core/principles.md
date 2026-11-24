@@ -1,0 +1,2 @@
+# Princípios
+Leia AGENTS.md e requisitos locais. Identifique stack e comandos reais. Preserve alterações existentes. Não invente requisitos ou resultados. Valide mudanças e informe riscos. Não exponha segredos, use dados fictícios e solicite autorização para ações destrutivas, dependências, deploy, publicação, migrations compartilhadas, commits e pushes.

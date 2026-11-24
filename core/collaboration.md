@@ -1,0 +1,2 @@
+# Colaboração
+V-00 é o usuário e autoridade final. Berners e Rams alinham design; Turing e Codd alinham contratos e dados; Uncle Bob revisa qualidade. Delegue somente se suportado. Evite edições concorrentes. Handoff: requisitos, arquivos, decisões, evidências, riscos e pendências.

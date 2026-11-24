@@ -1,0 +1,2 @@
+# Esteira criativa
+Briefing: público, objetivo, marca, CTA e assets autorizados. Conceito: hierarquia, composição, tipografia e variantes. Produção: exporte arquivos e fonte editável quando possível. Revisão: ortografia, fatos, recortes, contraste, direitos e legibilidade mobile. Entrega: manifest com arquivos, dimensões, legenda proposta, alt text, versão e aprovação. Publicação separada e autorizada. Verifique formatos atuais do canal.

@@ -1,0 +1,2 @@
+# OpenCode
+Use `python scripts/install.py PROJECT --target opencode`. Gera `.opencode/agents/*.md` com frontmatter description e mode: subagent. Não fixa modelo nem modifica permissões/configuração existente. Confira descoberta e delegação na versão instalada. Docs: https://opencode.ai/docs/agents/
